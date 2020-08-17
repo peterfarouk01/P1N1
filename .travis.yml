@@ -1,5 +1,8 @@
 language: python
 python:
   - "3.6"
+install:  
+ - pip install progress 
+ - pip install tqdm
 script:
   - python progress_bar.py
